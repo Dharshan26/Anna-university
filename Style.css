@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    color: rgb(196, 215, 217);
+}
+img{
+    width: 100%;
+    position: fixed;
+}
+
+.main-content{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.question{
+    margin: 5px;
+}
+
+.radio-option{
+    display: flex;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+input[type="checkbox"], input[type="radio"] {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.text-area{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
